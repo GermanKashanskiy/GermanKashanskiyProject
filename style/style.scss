@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;600&display=swap');
+
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border: 2px solid none;
+    background-color: #171717;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #FBFBFB;
+}
+
+.mb-10 {
+    margin-bottom: 6rem !important;
+}
+
+.py-15 {
+    padding-top: 9rem !important;
+    padding-bottom: 9rem !important;
+}
+
+/* ------------------------------ Header Start ------------------------------ */
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.header-bg {
+    background-color: #FBFBFB;
+
+    .navbar-btns {
+        a {
+            color: #171717;
+            font-family: 'Lilita One', Haettenschweiler;
+        }
+    }
+}
+
+/* ------------------------------- Header End ------------------------------- */
+/* ----------------------------- PROJ INFO START ---------------------------- */
+.proj_info-container {
+    background: #171717 0% 0% no-repeat padding-box;
+
+    .proj_info-text {
+        font-family: 'Lilita One', Haettenschweiler;
+        text-align: center;
+        color: #FBFBFB;
+
+        .proj_info-big-text {
+            font-size: 4rem;
+        }
+
+        .proj_info-smal-text {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+/* ------------------------------ PROJ INFO END ----------------------------- */
+/* ------------------------- PROJ TECHNOLOGIES START ------------------------ */
+.used-tech_container {
+    text-align: center;
+
+    img {
+        width: 4.2rem;
+    }
+}
+
+/* -------------------------- PROJ TECHNOLOGIES END ------------------------- */
+/* ----------------------------- ABOUT ME START ----------------------------- */
+
+.about-text-container {
+    .about-text-big {
+        font-family: 'Lilita One', Haettenschweiler;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .aboout-text-small {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        width: 70%;
+    }
+}
+
+@media (max-width:540px) {
+    .about-text-container {
+        margin: 0 !important;
+
+        .aboout-text-small {
+            width: 100%;
+
+        }
+    }
+}
+
+/* ------------------------------ ABOUT ME END ------------------------------ */
+
+.space-between {
+    hr {
+        width: 70%;
+    }
+}
+
+/* ----------------------------- PROJECTS START ----------------------------- */
+@media (min-width:1400px) {
+    .prj-section-container {
+        margin: 0rem 20rem;
+    }
+}
+
+@media (max-width:540px) {
+    .prj-section-text-container {
+        margin: 0 !important;
+    }
+}
+
+
+.prj-section-text-container {
+    color: #171717;
+
+    .prj-section-text-big {
+        font-family: 'Lilita One', Haettenschweiler;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .prj-section-text-small {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        margin: 1rem 0rem;
+        width: 50%;
+    }
+}
+
+.card-container {
+    border: none;
+    box-shadow: 3px 3px 15px #00000029;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 10px;
+
+    .proj-technologies-container {
+        img {
+            width: 2rem;
+        }
+    }
+
+
+    .card-btn {
+        background-color: #171717;
+        color: #FBFBFB;
+        font-family: 'Lilita One', Haettenschweiler;
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 0.5rem 4rem;
+        border-radius: 1rem;
+    }
+
+    .card-btn:hover {
+        background-color: #171717db;
+    }
+}
+
+
+/* ------------------------------ PROJECTS END ------------------------------ */
+/* ------------------------------ FOOTER START ------------------------------ */
+.footer-container {
+    background-color: #171717;
+
+    .contact-form-container {
+        color: #FBFBFB;
+
+        .form-text-container {
+
+            .form-text-big {
+                font-family: 'Lilita One', Haettenschweiler;
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+
+            .form-text-small {
+                font-family: 'Lexend Deca', sans-serif;
+                font-weight: 300;
+                font-size: 0.8rem;
+            }
+        }
+
+        .form-container {
+            label {
+                font-family: 'Lexend Deca', sans-serif;
+                font-weight: 600;
+                font-size: 0.8rem;
+            }
+
+            input {
+                font-family: 'Lexend Deca', sans-serif;
+                font-weight: 300;
+                border: none;
+                border-bottom: 0.2rem solid #2c2c2c;
+                background-color: #e4e4e4;
+                width: 90%;
+                padding: 0.5rem 0rem;
+            }
+
+            textarea {
+                border: none;
+                border-bottom: 0.2rem solid #2c2c2c;
+                background-color: #e4e4e4;
+                width: 90%;
+                overflow: hidden;
+            }
+
+            input[type=submit] {
+                border-radius: 10px;
+                background-color: #e4e4e4;
+            }
+        }
+    }
+}
+
+/* ------------------------------- FOOTER END ------------------------------- */
+
+.bottom-links {
+    .link-item {
+        margin: 0.5rem;
+        text-align: center;
+
+        .item-photo {
+            width: 100%;
+        }
+
+        .item-text {
+            margin-top: 1rem;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .bottom-links {
+        flex-direction: column;
+    }
+}
+
+.bottom-sign {
+    font-family: 'Lilita One', Haettenschweiler;
+    background-color: #171717fb;
+    color: #FBFBFB;
+}

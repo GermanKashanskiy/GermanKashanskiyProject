@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container-fluid row coffeeshop-container">
+        <div class="container col-sm-12 col-md-5 offset-md-7 coffeeshop-form_component">
+            <div class="d-flex flex-column justify-content-center align-items-center coffeeshop-form_container">
+                <div class="d-flex flex-column align-items-start coffeeshop-form_text">
+                    <div class="coffeeshop-form_text-big">
+                        Good coffee for a good morning
+                    </div>
+                    <div class="coffeeshop-form_text-small">
+                        To receive a coupon for a free and indulgent coffee that will start your day with a smile, fill
+                        in
+                        the details:
+                    </div>
+                </div>
+                <div class="coffeeshop-form_form">
+                    <form action="">
+                        <label for="name">Full name</label><br>
+                        <input type="text" id="name" name="name" placeholder="German K." pattern="[a-z]*"><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="email@domain.here"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+                        <input type="submit" value="Send"><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------- Bootstrap script --------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

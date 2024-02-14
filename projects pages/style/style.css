@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;600&display=swap");
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 2px solid none;
+  background-color: #171717;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #FBFBFB;
+}
+
+.mb-10 {
+  margin-bottom: 6rem !important;
+}
+
+.py-15 {
+  padding-top: 9rem !important;
+  padding-bottom: 9rem !important;
+}
+
+/* ------------------------------ Header Start ------------------------------ */
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.header-bg {
+  background-color: #FBFBFB;
+}
+.header-bg .navbar-btns a {
+  color: #171717;
+  font-family: "Lilita One", Haettenschweiler;
+}
+
+/* ------------------------------- Header End ------------------------------- */
+/* ----------------------------- PROJ INFO START ---------------------------- */
+.proj_info-container {
+  background: #171717 0% 0% no-repeat padding-box;
+}
+.proj_info-container .proj_info-text {
+  font-family: "Lilita One", Haettenschweiler;
+  text-align: center;
+  color: #FBFBFB;
+}
+.proj_info-container .proj_info-text .proj_info-big-text {
+  font-size: 4rem;
+}
+.proj_info-container .proj_info-text .proj_info-smal-text {
+  font-size: 1.2rem;
+}
+.proj_info-container .proj-info-btns {
+  flex-wrap: wrap;
+}
+.proj_info-container .proj-info-btns a {
+  margin: 3rem;
+  padding: 0.4rem 1.5rem;
+  color: #171717;
+  background-color: #FBFBFB;
+  font-family: "Lilita One", Haettenschweiler;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.proj_info-container .proj-info-btns a:hover {
+  background-color: rgba(251, 251, 251, 0.8);
+}
+
+/* ------------------------------ PROJ INFO END ----------------------------- */
+/* ------------------------- PROJ TECHNOLOGIES START ------------------------ */
+.used-tech_container {
+  text-align: center;
+}
+.used-tech_container img {
+  width: 4.2rem;
+}
+
+/* -------------------------- PROJ TECHNOLOGIES END ------------------------- */
+/* -------------------------------- PROJ IMG -------------------------------- */
+.project-img {
+  margin-top: 6rem;
+  margin-bottom: 9rem;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.4);
+}
+.project-img img {
+  width: 100%;
+}
+
+/* -------------------------------- PROJ IMG -------------------------------- */
+.bottom-sign {
+  font-family: "Lilita One", Haettenschweiler;
+  background-color: rgba(23, 23, 23, 0.9843137255);
+  color: #FBFBFB;
+}/*# sourceMappingURL=style.css.map */

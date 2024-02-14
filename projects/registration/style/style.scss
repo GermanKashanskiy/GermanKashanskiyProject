@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;600&display=swap');
+
+
+.pt-20 {
+    padding-top: 20vh;
+}
+
+.container-bg {
+    background-color: #1e1e1efc;
+    height: 58vh;
+}
+
+.registration-form_container {
+    background-color: #1A1A1AD4;
+
+    .registration-form_in_container {
+        color: #ffffff;
+        font-family: 'Lexend Deca', sans-serif;
+        padding: 3rem 3rem 6rem 3rem !important;
+
+        .registration-form_text {
+
+
+            .registration-form_text-big {
+                font-weight: 600;
+                font-size: 1.7rem !important;
+            }
+
+            .registration-form_text-small {
+                font-weight: 300;
+                font-size: 0.8rem !important;
+            }
+        }
+
+        .registration-form_form {
+            label {
+                font-size: 0.9rem !important;
+            }
+
+            input {
+                border: none;
+            }
+
+            input[type=submit] {
+                background-color: #ffffff;
+            }
+
+            .input-wh {
+                width: 100%;
+            }
+        }
+    }
+}

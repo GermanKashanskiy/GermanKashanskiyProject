@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;600;800;900&display=swap");
+/* ----------------------------- Top Yellow Line ---------------------------- */
+.top-yellow-line-container {
+  padding: 0;
+}
+.top-yellow-line-container .top-yellow-line {
+  background-color: #FDBD03;
+  height: 1rem;
+  width: 1rem;
+  padding-left: 15rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ------------------------------ Whatsapp Btn ------------------------------ */
+.whatsp-btn {
+  background-color: #FDBD03;
+  height: 4.956rem;
+  width: 4.956rem;
+  border-radius: 50%;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------- Central Section Start ------------------------- */
+.form-section-container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.form-section-container .form-container .text-container {
+  text-align: left;
+  font-family: "Lexend", sans-serif;
+}
+.form-section-container .form-container .text-container .text-big {
+  color: #FDBD03;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.form-section-container .form-container .text-container .text-small {
+  color: #020253;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.form-section-container .form-container .form-input-container .input-line-container {
+  display: flex;
+}
+.form-section-container .form-container .form-input-container .input-line-container .name-container {
+  margin-right: 1.5rem;
+}
+.form-section-container .form-container .form-input-container .input-line-container .email-container {
+  margin-left: 1.5rem;
+}
+.form-section-container .form-container .form-input-container .input-line-container label {
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.form-section-container .form-container .form-input-container .input-line-container input {
+  background-color: #E5EEFF;
+  border: none;
+  border-bottom: 0.2rem solid #FDBD03;
+  width: 16rem;
+  height: 2.5rem;
+}
+.form-section-container .form-container .form-input-container label {
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.form-section-container .form-container .form-input-container textarea {
+  background-color: #E5EEFF;
+  border: none;
+  border-bottom: 0.2rem solid #FDBD03;
+  width: 35rem;
+}
+.form-section-container .form-container .form-input-container input[type=submit] {
+  height: 2.5rem;
+  border: none;
+  width: 10rem;
+  background-color: #FDBD03;
+  border-bottom: none;
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+}
+.form-section-container .phone-img-container img {
+  width: 100%;
+}
+
+/* --------------------------- Central Section End -------------------------- */
+/* ------------------------------- Bottom BTNS ------------------------------ */
+.btns-container {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+.btns-container .bottom-btn {
+  background-color: #FDBD03;
+  height: 4.956rem;
+  width: 4.956rem;
+  border-radius: 50%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.btns-container .bottom-btn img {
+  width: 75%;
+}
+
+/* -------------------------------------------------------------------------- */
+/* --------------------------- Bottom Yellow Line --------------------------- */
+.bottom-yellow-line-container {
+  padding: 0;
+}
+.bottom-yellow-line-container .bottom-yellow-line {
+  background-color: #FDBD03;
+  height: 1rem;
+  width: 1rem;
+  padding-right: 55vw;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ------------------------------- 992px Scale ------------------------------ */
+@media (max-width: 992px) {
+  .form-section-container .form-container .form-input-container .input-line-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-section-container .form-container .form-input-container .input-line-container .name-container {
+    margin-right: 0;
+  }
+  .form-section-container .form-container .form-input-container .input-line-container .email-container {
+    margin-left: 0;
+  }
+  .form-section-container .form-container .form-input-container input {
+    width: 18rem !important;
+  }
+  .form-section-container .form-container .form-input-container textarea {
+    width: 18rem;
+  }
+  .form-section-container .form-container .form-input-container input[type=submit] {
+    width: 10rem;
+  }
+  .btns-container .bottom-btn {
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+  }
+  .btns-container .bottom-btn img {
+    width: 60%;
+  }
+}
+/* ------------------------------- 992px Scale ------------------------------ */
+/* ------------------------------- 768px Scale ------------------------------ */
+@media (max-width: 768px) {
+  .whatsp-btn {
+    display: none !important;
+  }
+  .form-section-container .form-container .text-container {
+    text-align: center;
+  }
+  .form-section-container .form-container .form-input-container input {
+    width: 30rem !important;
+  }
+  .form-section-container .form-container .form-input-container textarea {
+    width: 30rem;
+  }
+  .form-section-container .form-container .form-input-container input[type=submit] {
+    width: 10rem;
+  }
+  .form-section-container .phone-img-container {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .form-section-container .phone-img-container img {
+    width: 40%;
+  }
+  .btns-container {
+    justify-content: center;
+    margin-left: 0;
+  }
+  .btns-container .bottom-btn {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+  }
+  .btns-container .bottom-btn img {
+    width: 50%;
+  }
+}
+/* ------------------------------- 768px Scale ------------------------------ */
+/* ------------------------------- 576px Scale ------------------------------ */
+@media (max-width: 576px) {
+  .form-section-container .form-container .text-container .text-big {
+    font-size: 2rem;
+  }
+  .form-section-container .form-container .text-container .text-small {
+    font-size: 0.8rem;
+  }
+  .form-section-container .form-container .form-input-container input {
+    width: 100% !important;
+  }
+  .form-section-container .form-container .form-input-container textarea {
+    width: 100%;
+  }
+  .form-section-container .form-container .form-input-container input[type=submit] {
+    width: 100%;
+  }
+}
+/* ------------------------------- 576px Scale ------------------------------ *//*# sourceMappingURL=style.css.map */

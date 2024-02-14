@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+.my-10 {
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+
+.coffeeshop-container {
+  background-image: url(/projects/coffee/images/Coffee.png);
+  background-repeat: no-repeat;
+  padding-right: 0;
+  height: 100vh;
+}
+.coffeeshop-container .coffeeshop-form_component {
+  box-shadow: -20px 0px 20px 10px #FBFBFB;
+  background-color: #FBFBFB;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container {
+  margin: 20vh 6vw;
+  width: 30vw;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_text {
+  font-family: "Poppins", sans-serif;
+  color: #020253;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_text .coffeeshop-form_text-big {
+  font-weight: 700;
+  font-size: 2.2vw;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_text .coffeeshop-form_text-small {
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form {
+  font-family: "Poppins", sans-serif;
+  color: #020253;
+  padding-top: 4vh;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form label {
+  font-size: 1vw;
+  font-weight: 600;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form input {
+  border: none;
+  background-color: #E5EEFF;
+  border-bottom: 0.3vh solid #020253;
+  width: 30vw;
+  height: 4vh;
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form input:invalid {
+  animation: shake 300ms;
+  border-bottom: 0.3vh solid #a70202;
+}
+@keyframes shake {
+  0%, 100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(0.125rem);
+  }
+  75% {
+    transform: translate(-0.125rem);
+  }
+}
+.coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form input[type=submit] {
+  background-color: #020253;
+  color: #E5EEFF;
+  font-weight: 900;
+  height: 4.5vh;
+}
+
+@media (max-width: 768px) {
+  .row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .coffeeshop-container {
+    padding-top: 20vh;
+  }
+  .coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container {
+    margin: auto;
+    width: 80vw;
+  }
+  .coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_text {
+    padding-top: 6vh;
+    text-align: center;
+  }
+  .coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_text .coffeeshop-form_text-big {
+    font-size: 7vw;
+    font-weight: 900;
+  }
+  .coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_text .coffeeshop-form_text-small {
+    padding-top: 4vh;
+    font-size: 4vw;
+  }
+  .coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form {
+    padding-top: 12vh;
+  }
+  .coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form label {
+    font-size: 3vw;
+  }
+  .coffeeshop-container .coffeeshop-form_component .coffeeshop-form_container .coffeeshop-form_form input {
+    width: 80vw;
+  }
+}/*# sourceMappingURL=style.css.map */

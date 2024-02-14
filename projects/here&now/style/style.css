@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background: transparent linear-gradient(180deg, #741eff 0%, #b9db22 100%) 0% 0% no-repeat padding-box;
+}
+
+.sub-container {
+  height: 100vh;
+}
+.sub-container .sub-info_container {
+  padding-top: 15%;
+  margin: 0vh 15vw;
+}
+.sub-container .sub-info_container .sub-info_text-container .sub-info_text-logo {
+  text-align: center;
+  font: normal normal normal 12vw Satisfy;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 36px rgba(0, 0, 0, 0.5294117647);
+}
+.sub-container .sub-info_container .sub-info_text-container .sub-info_text-big {
+  text-align: center;
+  font: normal normal normal 2vw Varela Round;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+}
+.sub-container .sub-info_container .sub-info_text-container .sub-info_text_small {
+  text-align: center;
+  font: normal normal normal 1.1vw Varela Round;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 950px) {
+  .sub-container .sub-info_container .sub-info_text-container .sub-info_text-big {
+    font-size: 4vw;
+  }
+  .sub-container .sub-info_container .sub-info_text-container .sub-info_text_small {
+    padding-top: 3vh;
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sub-container .sub-info_container .sub-info_text-container .sub-info_text-big {
+    padding-top: 3vh;
+    font: normal normal normal 4vw Varela Round;
+    font-family: "Poppins", sans-serif;
+  }
+  .sub-container .sub-info_container .sub-info_text-container .sub-info_text_small {
+    padding-top: 3vh;
+    font: normal normal normal 3vw Varela Round;
+    font-family: "Poppins", sans-serif;
+  }
+}
+.sub-container .sub-info_form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+.sub-container .sub-info_form-container .sub-info_form-item {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0vw 0.6vw;
+}
+.sub-container .sub-info_form-container .sub-info_form-item label {
+  color: #F9F9F9;
+  font: normal normal normal 1.1vw Varela Round;
+  font-family: "Poppins", sans-serif;
+}
+.sub-container .sub-info_form-container .sub-info_form-item input {
+  background-color: rgba(246, 246, 246, 0.1411764706);
+  border: 0.2vw solid #FFFFFF;
+  width: 20vw;
+  height: 4vh;
+}
+.sub-container .sub-info_form-container input[type=submit] {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  font: normal normal normal 1.1vw Varela Round;
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 950px) {
+  .sub-container .sub-info_form-container {
+    margin-top: 40vh;
+    font-family: "Poppins", sans-serif;
+  }
+  .sub-container .sub-info_form-container .sub-info_form-item input {
+    width: 25vw;
+  }
+  .sub-container .sub-info_form-container .sub-info_form-item input[type=submit] {
+    font: normal normal normal 2.5vw Varela Round;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sub-container .sub-info_form-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+  }
+  .sub-container .sub-info_form-container .sub-info_form-item {
+    padding-top: 1.5vh;
+  }
+  .sub-container .sub-info_form-container .sub-info_form-item label {
+    font: normal normal normal 2vw Varela Round;
+  }
+  .sub-container .sub-info_form-container .sub-info_form-item input {
+    width: 70vw;
+  }
+  .sub-container .sub-info_form-container .sub-info_form-item input[type=submit] {
+    font: normal normal normal 2.5vw Varela Round;
+  }
+}/*# sourceMappingURL=style.css.map */

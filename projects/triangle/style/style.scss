@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.info-section-container {
+    background-image: url(/projects/triangle/images/BG.png);
+    height: 65vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .info-text-container {
+        font-family: 'Anybody', sans-serif;
+
+        .info-text-big {
+            color: #D3E10E;
+            font-size: 3.5rem;
+            font-weight: 900;
+        }
+
+        .info-text-small {
+            color: #F9F9F9;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.form-container {
+    margin-top: 6rem;
+
+    input {
+        background-color: #F6F6F6;
+        border: none;
+        border-bottom: 0.2rem solid #D3E10E;
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    label {
+        font-family: 'Anybody', sans-serif;
+        font-size: 0.8rem;
+    }
+
+    input[type=submit] {
+        background-color: #D3E10E;
+        width: 40%;
+    }
+}
+
+@media (max-width:768px) {
+    .info-section-container {
+        height: 40vh;
+
+        .info-text-container {
+            .info-text-big {
+                font-size: 2rem;
+            }
+
+            .info-text-small {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .form-container {
+        margin-top: 9rem;
+    }
+}
